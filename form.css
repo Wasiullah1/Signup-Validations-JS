@@ -1,0 +1,154 @@
+body{
+    background-image: url('background1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    background-image: url(box1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(228, 228, 228);
+    opacity: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    margin-right: 10%;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    padding-right: 35px;
+    color:white;
+    opacity: 90%;
+
+}
+#email{
+    height:55px;
+    width: 390px;
+    margin-left: 40px;
+}
+#username{
+    height: 55px;
+    width: 390px;
+    margin-left: 40px;
+}
+#password{
+    height: 55px;
+    width: 390px;
+    margin-left: 40px;
+}
+#againpassword{
+    height: 55px;
+    width: 390px;
+    margin-left: 40px;
+}
+#contact{
+    height: 55px;
+    width: 390px;
+    margin-left: 40px;
+}
+
+#signup{
+    height: 50px;
+    width: 280px;
+    margin-left: 60px;
+    background-color: red;
+    color: white;
+    
+
+}
+#boxes{
+    background-image: url(building.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(204, 181, 181);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 40px;
+  padding: 10px;
+  opacity: 90%;
+}
+#login{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 85px 60px 60px 80px;
+  color: white;
+  padding: 0px;
+  opacity: 90%;
+}
+h{
+    margin-bottom: 0px;
+}
+p{
+    width: 70%;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+a{
+    position: relative;
+    background-color: skyblue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration-line: none;
+    padding: 20px 100px;
+    margin-bottom: 15px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+a:hover{
+    background-color: slateblue;
+}
+.registeration{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 30px;
+}
+#showresult{
+    margin: 0px 40px;
+}
+#result{
+    margin: 0px 40px;
+}
+#resultcontact{
+    margin: 0px 40px;
+}
+#resultpass{
+    margin: 0px 40px;
+}
+#resultpassagain{
+    margin: 0px 40px;
+}
+#entemail{
+    height: 45px;
+    width: 320px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 30px;
+}
+#loginid{
+    height: 40px;
+    width: 180px;
+    margin: 20px 40px;
+    background-color: rgb(87, 87, 133);
+    color: white;
+    border-radius: 20px;
+}
+#loginid:hover{
+    background-color: chartreuse;
+}
+#entpassword{
+    height: 45px;
+    width: 320px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-radius: 30px;
+}
+#emailresult{
+    margin: 10px 40px;
+}
+#passresult{
+    margin: 10px 40px;
+}
